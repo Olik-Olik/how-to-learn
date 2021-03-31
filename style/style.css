@@ -17,7 +17,7 @@
     height: 100vh;
     min-height: 600px;
     max-height: 756px;
-    background-color: #f2f2f2 ;
+    background-color: #f2f2f2;
     z-index: -1;
 }
 .header__square-pic{
@@ -30,13 +30,13 @@
     z-index: -1;/*если -1 то вообще под картинкой блииииин а должен быть -1*/
     background-color: #2f80ed;
     bottom: 0px;
-    right:  0px;
+
 }
 
 .logo{
     height:32px;
     width:183px;
-    background-image: url(../images/logo_place_header.svg) ;
+    background-image: url(../images/logo_place_header.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -97,7 +97,7 @@
 .content{
     margin: 0px;
     align-items: center;
-    background-color: #f2f2f2 ;
+    background-color: #f2f2f2;
     min-width: 1100px;
     max-width: 1600px;
     flex-direction: column;
@@ -220,14 +220,13 @@
     text-align: left;
     border: 1px solid aqua;
     flex-direction: column;
-
 }
 
 /*заголовки */
 .digits__table__heading{
     display: inline-block;
     padding-top: 20px;
-    /**/ padding-bottom: 20px;
+    padding-bottom: 20px;
     line-height: 1.15;
     font-size: 24px;
     font-weight:bold;
@@ -246,7 +245,7 @@
     align-items: stretch;
     align-content: stretch;
     padding-top: 20px;
-    /**/ padding-bottom: 20px;
+   padding-bottom: 20px;
     right: 0px;
     line-height: 1.2;
     font-size: 18px;
@@ -296,7 +295,6 @@
     line-height:51px;
     font-size: 36px;
     font-weight: normal;
-
 }
 .feynman_link{
     position:relative;
@@ -308,11 +306,10 @@
     line-height:51px;
     font-size: 36px;
     font-weight: normal;
-    color:  gray;
+    color: gray;
     text-decoration: none;
 }
 /***********************      Кауфман   *************************************/
-
 .kaufman{
     position: relative;
     padding-top: 90px;
@@ -321,8 +318,6 @@
     z-index:-1;
     min-width: 1100px;
     max-width: 1600px;
-
-
 }
 /* 1  Принципы обучения */
 .title_theme_dark{
@@ -334,7 +329,6 @@
     font-size: 60px;
     font-weight: bold;
     color: white;
-
 }
 /* 2 от Джоша Кауфмана*/
 .subtitle_theme_dark{
@@ -346,7 +340,6 @@
     font-weight: normal;
     color: white;
     margin-top: 20px;
-
 }
 /*--_______________________________________ table*/
 
@@ -361,7 +354,6 @@
     justify-content: space-between;
     min-width: 1100px;
     max-width: 1600px;
-
 }
 /*--  cell ячейка */
 .table__cell_theme_dark {
@@ -379,8 +371,6 @@
     color: white;
     text-align: left;
     margin-bottom: 20px;
-
-
 }
 /* 6    text--*/
 .table__text_theme_dark{
@@ -391,7 +381,6 @@
     font-weight: normal;
     padding-top: 20px;
     color: white;
-
 }
 /* triangle ************************************/
 .kaufman__triangle{
@@ -407,7 +396,6 @@
     background-size: cover;
 }
 /* ***************************************  footer*/
-
 .footer{
     min-height: 350px;
     /*width: 90%;*/
@@ -415,8 +403,7 @@
     margin: 0 auto;
   /* padding-top: 60px;*/
     padding-bottom:40px;
-    background-color: #f2f2f2 ;
-
+    background-color: #f2f2f2;
 }
 .columns{
     margin: 0;
@@ -432,13 +419,6 @@
     flex-basis: 711px;
     margin: 0;
 }
-/*.info_social{
-
-    padding-right: 0px;
-    flex-wrap: wrap;
-}*/
-
-
 .logo_place_footer{
     width: 183px;
     height: 35px;
@@ -465,7 +445,6 @@
     justify-content: space-between;
     flex-direction: column;
     display: flex;
-
 }
 .footer__column-link{
     margin: 0;
