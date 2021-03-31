@@ -300,7 +300,6 @@
     position:relative;
     top: 50%;
     margin: 0px;
-    alignment: right;
     text-align: right;
     right: 48px;
     line-height:51px;
@@ -324,7 +323,6 @@
     margin: 0 auto;
     text-align: center;
     width: 60%;
-    margin: 0 auto 0 auto;
     line-height: 1.15;
     font-size: 60px;
     font-weight: bold;
