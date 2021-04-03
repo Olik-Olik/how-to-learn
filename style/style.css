@@ -135,7 +135,7 @@
 
 .description_two-columns__paragraph {
   margin-top: 0px;
-  margin-inside: 30px;
+ /* margin-inside: 30px;*/
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -346,7 +346,7 @@
   padding-bottom: 90px;
   margin-right: auto;
   margin-left: auto;
-  margin-inside: 80px;
+  /*margin-inside: 80px;*/
   /* border: 1px solid rgb(98, 0, 255);*/
   flex-direction: row;
   min-width: 1100px;
