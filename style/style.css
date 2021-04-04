@@ -30,7 +30,7 @@
   /*background-position: center;*/
   /*background-repeat: no-repeat;*/
  /* background-position: center;*/
-  align-self: center;
+  /*align-self: center;*/
 }
 
 .logo_place_header {
@@ -91,7 +91,7 @@
   z-index: 5;
 }
 
-/***********************************/
+
 .content {
   /* background-color: #f2f2f2;*/
   min-width: 1100px;
@@ -101,7 +101,6 @@
 
 .description {
   padding: 0px;
-  position: center; /*по содержимому*/
   display: flex;
   justify-content: center; /*центрируем по горизонтали*/
   /*border: 1px solid crimson;*/
@@ -393,7 +392,6 @@
   background-image: url(../images/kaufman-triangle.svg);
 }
 
-/* ***************************************  footer*/
 .footer {
   margin: 0;
   min-height: 350px;
@@ -401,23 +399,31 @@
   min-width: 1100px;
   position: relative;
 }
+
 .columns {
   /*width: 90%;*/
   position: relative;
   display: flex;
   background-color: #1f1f1f;
-  /* border: 1px solid red;*/
   padding-top: 60px;
   padding-bottom: 40px;
-  /*margin-right: 0;
   margin-left: auto;
-  background-position: right;*/
+  margin-right: auto;
   justify-content: space-between;
+  flex-direction: row;
 }
+
+.footer__column{
+  display: flex;
+  flex-direction: column;
+}
+
 .footer__column_content_copyright {
   flex-basis: 711px;
   margin: 0;
   position: relative;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .logo_place_footer {
   width: 183px;
@@ -428,15 +434,10 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  display: block;
-  position: absolute;
-  /*flex-direction: row;
-  position: relative;*/
-
   color: #f2f2f2;
   padding-top: 18px;
   padding-bottom: 18px;
-  bottom: 0px;
+  position: relative;
 }
 .footer__column-heading {
   margin-top: 0;
@@ -447,9 +448,7 @@
   font-size: 18px;
   font-weight: bold;
   color: #f2f2f2;
-  justify-content: space-between;
-  flex-direction: column;
-  display: flex;
+
 }
 .footer__column-link {
   margin: 0;
