@@ -399,6 +399,7 @@
   min-height: 350px;
   background-color: #f2f2f2;
   min-width: 1100px;
+  display: inline;
 
 
 }
@@ -421,6 +422,9 @@
 .footer__column_content_copyright {
   flex-basis: 711px;
   margin: 0;
+  position: relative;
+  text-align: left;
+
 
 }
 .logo_place_footer {
@@ -434,11 +438,14 @@
   line-height: 25px;
   font-size: 18px;
   font-weight: normal;
-  position: absolute;
+  display: flex;
+  position: relative;
   color: #f2f2f2;
-  padding-top: 18px;
-  bottom: 18px;
-  left: 0px;
+  margin-top: 18px;
+ margin-bottom: 18px;
+  text-align: left;
+  justify-content: flex-start;
+
 }
 .footer__column-heading {
   margin-top: 0;
