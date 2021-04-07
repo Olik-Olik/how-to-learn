@@ -98,7 +98,7 @@
   justify-content: space-between;
   width: 80%;
 }
-.brief {
+.two-columns__brief {
   margin: 0px;
   padding: 0px;
   max-width: 175px;
@@ -108,19 +108,19 @@
   list-style-type: none;
   color: #2f80ed;
 }
-.paragraph {
+.two-columns__paragraph {
   margin-top: 0px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.main-text {
+.two-columns__main-text {
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 80%
 }
-.span-accent {
+.two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
   font-weight: bold;
@@ -133,7 +133,7 @@
   margin-right: auto;
 }
 
-.section-title {
+.digits-title {
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -141,10 +141,9 @@
   align-items: center;
   margin: auto;
   text-align: center;
-  margin: 0px;
 }
 
-.section-subtitle {
+.digits-subtitle {
   margin-top: 20px;
   line-height: 34px;
   font-size: 24px;
@@ -154,25 +153,22 @@
   text-align: center;
 }
 .text {
- /* margin-top: 60px;
-  margin-bottom: 100px;*/
   margin-left: auto;
   margin-right: auto;
   display: flex;
   text-align: left;
-  /*сбросить стандартные отступы у текста*/
 }
 
-.cell {
+.table__cell {
   width: 250px;
   margin: 0px;
-  margin-top: 60px;/*new*/
+  margin-top: 60px;
   align-content: center;
   text-align: left;
   flex-direction: column;
 }
 
-.heading {
+.heading {/*.digits_table*/
   padding-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
@@ -325,33 +321,49 @@
   background-image: url(../images/kaufman-triangle.svg);
 }
 .footer {
-  margin: 0 auto;
+  margin: 0;
   background-color: #1f1f1f;
   flex-direction: row;
   display: flex;
   min-height: 350px;
 }
 .footer__column {
-  margin: 0 auto;
-  width: 90%;
+  margin: auto 0;
   flex-direction: column;
   display: flex;
   background-color: #1f1f1f;
   box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 40px;
-  flex-basis: 192px;/*по умолчанию не работает чтобы получилось 711
-  у первого элемента. по замечанию убрала обертку columns,
-  которая нужна была для выравнивания.надеюсь так лучше*/
-  }
+ }
+.footer__columns {
+  margin: auto 0;
+  flex-direction: column;
+  display: flex;
+  background-color: #1f1f1f;
+  box-sizing: border-box;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  width: 90%;
+}
+.footer__columns{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+
 .footer__column_content_copyright {
   margin: 0;
   display: flex;
-  flex-basis: 711px;/* по умолчанию не работает*/
+  flex-basis: 711px;
   padding-top: 60px;
   padding-bottom: 40px;
   flex-direction: column;
-  justify-content: space-between;/*разобралась с флексами автор внизу*/
+  justify-content: space-between;/*автор внизу*/
 }
 .logo_place_footer {
   width: 183px;
@@ -397,7 +409,6 @@
   padding-bottom: 40px;
   padding-top: 60px;
   display: flex;
-
 }
 .footer__column_content-social {
   margin: 0;
