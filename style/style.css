@@ -118,7 +118,7 @@
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
-  width: 80%
+  width: 80%;
 }
 .two-columns__span-accent {
   line-height: 34px;
@@ -338,22 +338,17 @@
  }
 .footer__columns {
   margin: auto 0;
-  flex-direction: column;
-  display: flex;
   background-color: #1f1f1f;
   box-sizing: border-box;
   padding-top: 60px;
   padding-bottom: 40px;
   width: 90%;
-}
-.footer__columns{
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   margin-right: auto;
   margin-left: auto;
 }
-
 
 
 .footer__column_content_copyright {
