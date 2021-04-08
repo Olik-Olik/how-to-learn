@@ -370,8 +370,6 @@
   flex-direction: row;
   justify-content: space-between;
 }
-
-
 .footer__column_content_copyright {
   margin: 0;
   display: flex;
@@ -379,12 +377,10 @@
   flex-direction: column;
   justify-content: space-between; /*автор внизу*/
 }
-
 .logo_place_footer {
   width: 183px;
   height: 35px;
 }
-
 .footer__author {
   margin: 0;
   line-height: 25px;
@@ -394,7 +390,6 @@
   margin-top: 18px;
   padding-bottom: 18px;
 }
-
 .footer__column-heading {
   margin-top: 0;
   margin-bottom: 20px;
@@ -404,7 +399,6 @@
   font-weight: bold;
   color: #f2f2f2;
 }
-
 .footer__column-link {
   margin: 0;
   line-height: 30px;
@@ -423,17 +417,14 @@
   color: #f2f2f2;
   text-decoration: none;
 }
-
 .footer__column_content-info {
   margin: 0;
   display: flex;
 }
-
 .footer__column_content-social {
   margin: 0;
   display: flex;
 }
-
 .footer__social-icon {
   margin: 0;
   margin-right: 10px;
