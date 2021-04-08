@@ -165,12 +165,11 @@
 }
 
 .section-subtitle {
-  margin: 0px;
+  margin: 0px auto;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
   width: 60%;
-  margin: auto;
   text-align: center;
 }
 
