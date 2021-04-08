@@ -152,7 +152,7 @@
   margin: auto;
   text-align: center;
 }
-.text {
+.table__text {
   margin-left: auto;
   margin-right: auto;
   display: flex;
@@ -168,7 +168,7 @@
   flex-direction: column;
 }
 
-.heading {/*.digits_table*/
+.table__heading {/*.digits_table*/
   padding-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
