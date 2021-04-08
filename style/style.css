@@ -5,6 +5,7 @@
   padding: 0px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
+
 .header {
   position: relative;
   display: flex;
@@ -16,19 +17,22 @@
   min-width: 1100px;
   max-width: 1600px;
 }
+
 .logo {
   height: 32px;
   width: 183px;
   background-image: url(../images/logo_place_header.svg);
 }
+
 .logo_place_header {
   position: absolute;
   z-index: 2;
   top: 30px;
   left: 64px;
 }
+
 .header__title {
-  margin: 0;
+  margin: 0px;
   margin-left: 64px;
   max-width: 730px;
   line-height: 96px;
@@ -88,11 +92,13 @@
   margin-top: 100px;
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
-.two-columns{
+
+.two-columns {
   margin: 0;
   display: flex;
   justify-content: space-between;
 }
+
 .two-columns__brief {
   margin: 0px;
   padding: 0px;
@@ -103,14 +109,23 @@
   list-style-type: none;
   color: #2f80ed;
 }
-.two-columns__paragraph {
+
+.two-columns__paragraph:nth-child(1) {
   margin: 0 0 30px 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
-.two-columns__paragraph:last-child {
-  margin: 0 px;
+
+.two-columns__paragraph:nth-child(2) {
+  margin: 0 0 30px 0;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph:nth-child(3) {
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -123,6 +138,7 @@
   width: 80%;
   min-width: 784px;
 }
+
 .two-columns__span-accent {
   line-height: 34px;
   font-size: 24px;
@@ -137,8 +153,10 @@
 }
 
 .section-title {
-  margin: 0;
-  margin: auto;
+  margin: 0px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
   line-height: 1.15;
   font-size: 60px;
   font-weight: bold;
@@ -147,8 +165,7 @@
 }
 
 .section-subtitle {
-  margin: 0;
-  margin-top: 20px;
+  margin: 0px;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -156,8 +173,9 @@
   margin: auto;
   text-align: center;
 }
+
 .table__text {
-  margin:0;
+  margin: 0;
   display: flex;
   text-align: left;
 }
@@ -171,7 +189,7 @@
   flex-direction: column;
 }
 
-.table__heading {/*.digits_table*/
+.table__heading { /*.digits_table*/
   padding-bottom: 20px;
   line-height: 1.15;
   font-size: 24px;
@@ -180,7 +198,7 @@
   text-align: left;
 }
 
-.table {/*.digits_table*/
+.table { /*.digits_table*/
   min-width: 1100px;
   flex-wrap: wrap;
   display: flex;
@@ -239,6 +257,7 @@
   color: #2f80ed;
   text-decoration: none;
 }
+
 .kaufman {
   position: relative;
   background-color: #1f1f1f;
@@ -246,9 +265,10 @@
   overflow: hidden;
   margin-right: auto;
   margin-left: auto;
-  margin:0;
+  margin: 0;
   padding: 0;
 }
+
 .section-title_theme_dark {
   min-width: 60%;
   line-height: 1.15;
@@ -262,6 +282,7 @@
   margin-right: auto;
   margin-bottom: 0px;
 }
+
 .section-subtitle_theme_dark {
   margin: 0 auto;
   text-align: center;
@@ -310,6 +331,7 @@
   padding-top: 20px;
   color: white;
 }
+
 .kaufman__triangle {
   margin: 0;
   position: absolute;
@@ -321,6 +343,7 @@
   z-index: -1;
   background-image: url(../images/kaufman-triangle.svg);
 }
+
 .footer {
   background-color: #1f1f1f;
   flex-direction: row;
@@ -330,13 +353,15 @@
   padding-bottom: 40px;
   box-sizing: border-box;
 }
+
 .footer__column {
   margin: auto 0;
   flex-direction: column;
   display: flex;
   background-color: #1f1f1f;
   padding-top: 60px;
- }
+}
+
 .footer__columns {
   margin: 0 auto;
   background-color: #1f1f1f;
@@ -352,12 +377,14 @@
   display: flex;
   flex-basis: 711px;
   flex-direction: column;
-  justify-content: space-between;/*автор внизу*/
+  justify-content: space-between; /*автор внизу*/
 }
+
 .logo_place_footer {
   width: 183px;
   height: 35px;
 }
+
 .footer__author {
   margin: 0;
   line-height: 25px;
@@ -367,6 +394,7 @@
   margin-top: 18px;
   padding-bottom: 18px;
 }
+
 .footer__column-heading {
   margin-top: 0;
   margin-bottom: 20px;
@@ -376,6 +404,7 @@
   font-weight: bold;
   color: #f2f2f2;
 }
+
 .footer__column-link {
   margin: 0;
   line-height: 30px;
@@ -384,6 +413,7 @@
   color: #f2f2f2;
   text-decoration: none;
 }
+
 .footer__column-links {
   margin-top: 20px;
   margin-bottom: 16px;
@@ -393,14 +423,17 @@
   color: #f2f2f2;
   text-decoration: none;
 }
+
 .footer__column_content-info {
   margin: 0;
   display: flex;
 }
+
 .footer__column_content-social {
   margin: 0;
   display: flex;
 }
+
 .footer__social-icon {
   margin: 0;
   margin-right: 10px;
