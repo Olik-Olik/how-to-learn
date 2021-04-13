@@ -1,0 +1,14 @@
+.table { /*.digits_table*/
+  width: 1100px;
+  flex-wrap: wrap;
+  display: flex;
+  align-items: stretch;
+  align-content: stretch;
+  margin-right: auto;
+  margin-left: auto;
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  flex-direction: row;
+  justify-content: space-between;
+}

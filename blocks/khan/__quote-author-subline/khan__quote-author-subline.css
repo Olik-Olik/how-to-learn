@@ -1,0 +1,11 @@
+.khan__quote-author-subline {
+  padding: 0px;
+  display: flex;
+  margin: auto;
+  margin: 10px 0 68px 0;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  justify-content: left;
+  line-height: 1.15px;
+  font-size: 24px;
+  font-weight: normal;
+}

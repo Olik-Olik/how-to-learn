@@ -1,0 +1,5 @@
+
+.feynman__link:hover {
+  opacity: 0.33;
+  transition: color 1s linear 0.5s;
+}

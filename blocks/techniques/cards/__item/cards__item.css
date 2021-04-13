@@ -1,0 +1,10 @@
+.cards__item {
+  width: 160px;
+  height: 160px;
+  margin: 0px;
+  align-content: center;
+  text-align: left;
+  flex-direction: column;
+  position: relative;
+  box-sizing: border-box;
+}

@@ -1,0 +1,12 @@
+.khan__quote {
+  padding: 0px;
+  display: flex;
+  width: 790px;
+  margin-top: 50px;
+  margin-bottom: 36px;
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  justify-content: left;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
