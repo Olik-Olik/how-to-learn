@@ -3,10 +3,10 @@
   position: absolute;
   display: flex;
   top: 64px;
-  right: 0px;
+  right: 0;
   width: 568px;
   height: 568px;
   background-color: #2f80ed;
-  bottom: 0px;
+  bottom: 0;
   animation: rotation 20s linear 0s infinite;
 }
