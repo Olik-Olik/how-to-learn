@@ -18,7 +18,7 @@
 @import url(../blocks/footer/__column-link/footer__column-link.css);
 @import url(../blocks/footer/__column-links/_hover/footer__column-links-hover.css);
 @import url(../blocks/footer/__column-links/footer__column-links.css);
-@import url(../blocks/footer/__columns/footer_columns.css);
+@import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/header/__link/_hover/header__link-hover.css);
