@@ -1,9 +1,8 @@
 .cards {
-  min-width: 920px;
-  display: grid;
-  grid-template-columns: repeat(3, 160px);
-  gap: 100px;
-  align-items: stretch;
-  align-content: stretch;
-  justify-content: space-between;
+ max-width: 920px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+ /* justify-content: center;*/
 }
