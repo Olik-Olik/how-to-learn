@@ -1,0 +1,11 @@
+
+.cards__description {
+ /* margin: 16px 0 60px 0;*/
+  bottom: 60px;
+  top: 16px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  overflow: hidden;
+}

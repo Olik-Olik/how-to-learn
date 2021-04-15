@@ -4,10 +4,11 @@
   position: absolute;
   width: 877px;
   height: 877px;
-  display: block;
+  display:flex;
   top: 0;
   right: -210px;
-  z-index: -1;
-  background-image: url(../../images/kaufman-triangle.svg);
-  animation: rotation 20s linear infinite;
+  z-index: -4;
+  background-image: url(/images/kaufman-triangle.svg);
+  animation: rotation 20s linear 0s infinite;
+
 }
