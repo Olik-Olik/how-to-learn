@@ -1,6 +1,6 @@
-. khan__container {
-  position: fixed;
-  margin: 105px auto 0 auto;
+.khan__container {
+  position: relative;
+  margin: 105px auto 0px auto;
   width: 80%;
   display: flex;
 }

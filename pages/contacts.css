@@ -36,7 +36,7 @@
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
 @import url(../blocks/khan/__buy-link/_hover/khan__buy-link-hover.css);
 @import url(../blocks/khan/__container/khan__container.css);
-@import url(../blocks/khan/__container/__quote/khan__quote.css);
+@import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__container/_author/khan__quote-author.css);
 @import url(../blocks/khan/__title/khan__title.css);
 @import url(../blocks/khan/khan.css);
@@ -46,7 +46,7 @@
 @import url(../blocks/logo-zone/logo-zone.css);
 @import url(../blocks/oakley/oakley.css);
 @import url(../blocks/page/page.css);
-@import url(../blocks/resources/_logo/resources__logo.css);
+@import url(../blocks/resources/__logo/resources__logo.css);
 @import url(../blocks/resources/resources.css);
 @import url(../blocks/rotation/rotation.css);
 @import url(../blocks/section-subtitle/_theme_dark);
@@ -78,14 +78,14 @@
 @import url(../pages/contacts.css);
 @import url(../pages/about.css);
 
-@import url(../blocks/table/__cell/_theme_dark/table__cell_theme_dark.css);
-@import url(../blocks/table/__cell/table__cell.css);
-@import url(../blocks/table/__heading/_theme_dark.css);
-@import url(../blocks/table/__heading/table__heading.css);
-@import url(../blocks/table/__text/_theme_dark/table__text_theme_dark.css);
-@import url(../blocks/table/__text/table__text.css);
-@import url(../blocks/table/_theme_dark/table_theme_dark.css);
-@import url(../blocks/table/table.css);
+@import url(../blocks/table1/__cell/_theme_dark/table__cell_theme_dark.css);
+@import url(../blocks/table1/__cell/table__cell.css);
+@import url(../blocks/table1/__heading/_theme_dark.css);
+@import url(../blocks/table1/__heading/table__heading.css);
+@import url(../blocks/table1/__text/_theme_dark/table__text_theme_dark.css);
+@import url(../blocks/table1/__text/table__text.css);
+@import url(../blocks/table1/_theme_dark/table_theme_dark.css);
+@import url(../blocks/table1/table.css);
 
 
 
