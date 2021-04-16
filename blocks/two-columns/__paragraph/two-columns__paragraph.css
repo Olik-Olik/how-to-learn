@@ -1,5 +1,5 @@
 .two-columns__paragraph:nth-child(1) {
-  margin: 0px;
+  margin: 0;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
@@ -10,9 +10,12 @@
   font-size: 24px;
   font-weight: normal;
 }
-.two-columns__paragraph:nth-child(3) {
-  margin: 0px;
+.two-columns__paragraph:last-child {
+  margin: 0 0 0 0;
   line-height: 34px;
   font-size: 24px;
-  font-weight: normal;
-}
+  font-weight: normal;}
+
+
+
+
