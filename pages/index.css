@@ -31,13 +31,9 @@
 @import url(../blocks/footer/__column/_content/footer__column_content_social.css);
 @import url(../blocks/footer/__column/footer__column.css);
 @import url(../blocks/footer/__column-heading/footer__column-heading.css);
-@import url(../blocks/footer/__column-link/_hover/footer__column-link-hover.css);
 @import url(../blocks/footer/__column-link/footer__column-link.css);
-@import url(../blocks/footer/__column-links/_hover/footer__column-links-hover.css);
-@import url(../blocks/footer/__column-links/footer__column-links.css);
 @import url(../blocks/footer/__columns/footer__columns.css);
 @import url(../blocks/footer/__social-icon/footer__social-icon.css);
-@import url(../blocks/header/__link/_hover/header__link-hover.css);
 @import url(../blocks/header/__link/header__link.css);
 @import url(../blocks/header/__main-illustration/header__main-illustration.css);
 @import url(../blocks/header/__square-pic/header__square-pic.css);
@@ -49,7 +45,6 @@
 @import url(../blocks/khan/__book-container/khan__book-container.css);
 @import url(../blocks/khan/__book-pic/khan__book-pic.css);
 @import url(../blocks/khan/__buy-link/khan__buy-link.css);
-@import url(../blocks/khan/__buy-link/_hover/khan__buy-link-hover.css);
 @import url(../blocks/khan/__container/khan__container.css);
 @import url(../blocks/khan/__quote/khan__quote.css);
 @import url(../blocks/khan/__quote-author/khan__quote-author.css);
