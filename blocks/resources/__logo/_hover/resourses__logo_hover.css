@@ -1,8 +1,0 @@
-
-.resourses__logo:hover {
-  text-decoration: none;
-  color: #2f80ed;
-  z-index: 5;
-  opacity: 1;
-  transition:opacity 1s linear 0.5s;
-}

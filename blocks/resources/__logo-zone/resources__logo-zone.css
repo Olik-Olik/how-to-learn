@@ -1,4 +1,4 @@
-.logo-zone {
+.resources__logo-zone {
   margin: 40px auto 0 auto;
   text-align: center;
   justify-content: center;
@@ -6,4 +6,8 @@
   gap: 0;
   grid-template-columns: repeat(4, 270px);
   list-style: none;
+}
+.resources__logo-zone:hover {
+  opacity: 1;
+  transition:opacity 1s linear 0.5s;
 }
